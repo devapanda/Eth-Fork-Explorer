@@ -41,7 +41,8 @@
                 "0x0f2d7bb733f14e7db23fec63fc9f6e306e8a41d3": "DigiPools",
                 "0xfcb6b77be4388f8b3a400048894c06c3f9cfcdca": "NeverMining",
                 "0xa18c1d786695860ccec2a285da7c7fa626b14bf4": "NoobPool",
-                "0xa00f4ec1d5a0ce5811c420f1ed327cd1e4feb86f": "SpeedPool"
+                "0xa00f4ec1d5a0ce5811c420f1ed327cd1e4feb86f": "SpeedPool",
+                "0x0127fa4c82ccc460e58a00915e2e8286eb87f387": "WinMiner"
         }
     }
 }
