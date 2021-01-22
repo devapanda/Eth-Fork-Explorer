@@ -8,9 +8,9 @@
     "patch":        true,
     "patchBlocks":  100,
     "settings": {
-        "symbol": "ELLA",
-        "name": "Ellaism",
-        "title": "Ellaism Block Explorer",
+        "symbol": "MNC",
+        "name": "Mether Network Chain",
+        "title": "",
         "author": "Ellaism Community",
         "contact": "mailto:community@ellaism.org",
         "about": "This is an open source Blockchain Explorer.",
@@ -23,26 +23,6 @@
         "customCss": "green-haze.min.css",
         "poweredbyEtc": true,
         "miners": {
-                "0x65767ec6d4d3d18a200842352485cdc37cbf3a21": "DevPool",
-                "0xe6be7841a6e6b98edd7b38f884a9e32b4170d6b5": "Minerpool",
-                "0x00a86233f4d65f4018ca7f8626b96ce72af05a7c": "2miners",
-                "0xd2871774292e5c7f91fcd5d03b802905e8b414a5": "PoolSexy",
-                "0x3c4a268283b8c5508011d48dfe06d0c1568a7963": "Comining",
-                "0x00d29bfdf5f8d2d0466da4b948f37692ca50867a": "2minersSOLO",
-                "0xf35074bbd0a9aee46f4ea137971feec024ab704e": "SoloPool",
-                "0xd144e30a0571aaf0d0c050070ac435deba461fab": "ClonaRu",
-                "0x582ee8c40e931b66f3b1ed4c69d48a3a2cc81745": "MolePool",
-                "0x852936b16e86a831c9653f48489bbc815390795e": "EllaismPool",
-                "0x9fa9b9b9e4a5fef710fc997ddb2569dc142e71ee": "CGPools",
-                "0xb465deb4f55fddc2f227bf9dd3b6543b72631ccc": "AltpoolPro",
-                "0x0902bfc926fcb085ad95f01244789ec972bfff1a": "Cryptodig",
-                "0x706e91ff1a586094855cb2408d54657df6b83258": "MegaPool",
-                "0x119e4cc05bf44f9cd0b34453b204b7c7089814e2": "BaikalMine",
-                "0x0f2d7bb733f14e7db23fec63fc9f6e306e8a41d3": "DigiPools",
-                "0xfcb6b77be4388f8b3a400048894c06c3f9cfcdca": "NeverMining",
-                "0xa18c1d786695860ccec2a285da7c7fa626b14bf4": "NoobPool",
-                "0xa00f4ec1d5a0ce5811c420f1ed327cd1e4feb86f": "SpeedPool",
-                "0x0127fa4c82ccc460e58a00915e2e8286eb87f387": "WinMiner"
         }
     }
 }
