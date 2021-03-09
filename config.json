@@ -8,21 +8,9 @@
     "patch":        true,
     "patchBlocks":  100,
     "settings": {
-        "symbol": "MNC",
-        "name": "Mether Network Chain",
-        "title": "",
-        "author": "Ellaism Community",
-        "contact": "mailto:community@ellaism.org",
-        "about": "This is an open source Blockchain Explorer.",
-        "twitter": "https://twitter.com/ellaismproject",
-        "github": "https://github.com/ellaism",
-        "reddit": "https://www.reddit.com/r/ellaism",
-        "facebook": "https://www.facebook.com/ellaismproject/",
-        "logo": "https://ellaism.org/images/logo.png",
-        "rss": "https://bitcointalk.org/index.php?topic=2168042",
-        "customCss": "green-haze.min.css",
-        "poweredbyEtc": true,
-        "miners": {
-        }
+        "symbol": "EXL",
+        "name": "Excoincial",
+        "title": "Excoincial Block Explorer",
+        "author": "civa"
     }
 }
