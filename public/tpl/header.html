@@ -1,36 +1,16 @@
-
-<!DOCTYPE html>
-<html lang="zxx">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>AVN - AVNRICH</title>
-<link rel="icon" href="/img/cool-1.png">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/responsive.css">
-<link rel="stylesheet" href="/plugin/bootstrap-datepicker/css/bootstrap-datepicker.css">
-<link rel="stylesheet" href="/plugin/select2/css/select2.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
-<script src="/js/jquery.min.js"></script> 
-<script src="/js/qrcode.js"></script> 
-<script src='https://www.google.com/recaptcha/api.js'></script>
-</head>
-<body class="inner">
-<style>
-.header-area{ position:static;}
-.heading-h4{ margin:0px !important; padding:22px 10px;}
-</style>
-<header class="header-area inner wow fadeInDown" data-wow-delay="0.2s">
-  <div class="light classy-nav-container breakpoint-off">
+<!-- BEGIN HEADER TOP -->
+<div class="page-header-top">
     <div class="container">
-      <nav class="classy-navbar justify-content-between" id="dreamNav"> <a class="nav-brand" href="#"><img src="https://i.ibb.co/pv9Y8my/20210114-164157.png" width="60" alt="logo"></a>
-      </nav>
+    <!-- BEGIN LOGO -->
+    <div class="page-logo">
+        <a href="/">
+            <img ng-show="settings.logo" src="{{settings.logo}}" alt="logo" class="logo-default" />
+        </a>
     </div>
-  </div>
-</header>
+    <!-- END LOGO -->
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+        <a href="javascript:;" class="menu-toggler btn btn-sm green-haze btn-outline">MENU</a>
+        <!-- END RESPONSIVE MENU TOGGLER -->
         <!-- BEGIN TOP NAVIGATION MENU -->
         <div class="top-menu">
             <ul class="nav navbar-nav pull-right">
@@ -52,29 +32,156 @@
         </div>
         <!-- END TOP NAVIGATION MENU -->
     </div>
-  </div>
 </div>
-<style>
-.form-group {margin-bottom: .3rem;}
-</style>
-<style>
-.header-area{ position:static;}
-.heading-h4{ margin:0px !important; padding:22px 10px;}
-#dataChart {
-    min-width: 200px;
-    height: 148px;
-    margin: 0 auto;
-	background-image: url(/img/loader2.gif);
-	background-repeat:no-repeat;
-  background-position: center; 
-}
-</style>
-	    </div>
-            <hr class="hr-space-lg">
-          </div>
-          </div>
+<!-- END HEADER TOP -->
+<!-- BEGIN HEADER MENU -->
+<div class="page-header-menu">
+    <div class="container">
+
+        <!-- BEGIN MEGA MENU -->
+        <div class="hor-menu hor-menu-light">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menu-dropdown mega-menu-dropdown ">
+                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="/token" class="dropdown-toggle"> Tokens
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" style="min-width: 410px">
+                        <li>
+                            <div class="mega-menu-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="mega-menu-submenu">
+                                            <li>
+                                                <a href="/token/0x991e7fe4b05f2b3db1d788e705963f5d647b0044" class="iconify">
+                                                    <i class="icon-pin"></i> Mining</a>
+                                            </li>
+                                            <li>
+                                                <a href="/token/0x4aaad871293c4581edb580e99fb6613b0a3bc488" class="iconify">
+                                                    <i class="icon-pin"></i> Donate</a>
+                                            </li>
+                                            <li>
+                                                <a href="/token/0x229d4d1864d79224ff224021d8bb2f7a9f76ea96" class="iconify">
+                                                    <i class="icon-pin"></i> Gold</a>
+                                            </li>
+                                            <li>
+                                                <a href="/token/0xa7611d0d35ba4e0dcb469f2c34a5833ec4f4224f" class="iconify">
+                                                    <i class="icon-pin"></i> ODD</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/token" class="iconify">
+                                                    <i class="icon-puzzle"></i> View All Tokens </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="mega-menu-submenu">
+                                            <li>
+                                                <a href="/" class="iconify">
+                                                    <i class="icon-paper-clip"></i> View Contracts (N/A)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-dropdown mega-menu-dropdown ">
+                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"> Stats
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="mega-menu-content">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul class="mega-menu-submenu">
+                                            <li>
+                                                <a href="/stats/hashrate">
+                                                    <i class="fa fa-line-chart"></i> HashRate Growth Chart </a>
+                                            </li>
+                                            <li>
+                                                <a href="/stats/miner_hashrate">
+                                                    <i class="fa fa-line-chart"></i> Miner Distribution Chart</a>
+                                            </li>
+                                            <li>
+                                                <a href="/stats/difficulty">
+                                                    <i class="fa fa-line-chart"></i> Difficulty Chart</a>
+                                            </li>
+                                            <li>
+                                                <a href="/stats/blocktime">
+                                                    <i class="fa fa-line-chart"></i> Blocktime Chart</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-dropdown classic-menu-dropdown ">
+                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;"> Misc
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pull-left">
+                        <li>
+                            <a href="/">
+                                <i class="icon-check"></i> Verify Contract (N/A)</a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <i class="icon-refresh"></i>
+                                <span class="title">Broadcast TXN (N/A)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-dropdown classic-menu-dropdown ">
+                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;"> Community
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pull-left">
+                        <li>
+                          <a href="https://discordapp.com/invite/gz9tURY" target="_blank">
+                              <i class="fa fa-group"></i>
+                              <span class="title" data-toggle="tooltip" title="Discord Chat"> Discord</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://t.me/ellaismcoin" target="_blank">
+                              <i class="fa fa-group"></i>
+                              <span class="title" data-toggle="tooltip" title="Telegram Chat"> Telegram</span>
+                          </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="https://ellaism.github.io/ellawallet/" target="_blank">
+                                <i class="fa fa-leaf"></i>
+                                <span class="title" data-toggle="tooltip" title="MyEllaWallet" > Web Wallet</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wiki.ellaism.org/" target="_blank">
+                                <i class="fa fa-folder-open"></i>
+                                <span class="title" data-toggle="tooltip" title="Wiki"> Wiki</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stats.ellaism.org/" target="_blank">
+                                <i class="fa fa-bar-chart"></i>
+                                <span class="title" data-toggle="tooltip" title="MainNet Stats"> Live Network Stats </span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-      </div>
+        <!-- END MEGA MENU -->
     </div>
-  </div>
-</section>
+</div>
+<!-- END HEADER INNER -->
