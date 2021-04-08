@@ -1,51 +1,59 @@
-<!-- BEGIN PRE-FOOTER -->
-<div class="page-prefooter">
+<div class="clearfix"></div>
+<footer class="footer-area bg-img" style="background-image: url(/img/core-img/pattern.png);">
+  <div class="footer-content-area ">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
-                <h2>About</h2>
-                <p> {{settings.about}} </p>
-                <span ng-bind-html="settings.poweredbyCustom" ng-if="settings.poweredbyCustom">{{settings.poweredbyCustom}}</span>
-                <span ng-if="!settings.poweredbyCustom && settings.poweredbyEtcImage"><a href="https://github.com/ethereumproject/explorer" target="_blank"><img height="51px" src="{{settings.poweredbyEtcImage}}"></a></span>
-                <p ng-if="!settings.poweredbyCustom && !settings.poweredbyEtcImage && settings.poweredbyEtc"> Powered by <a href="" target="_blank">Mether Chain</a> </p>
+      <div class="row align-items-end">
+        <div class="col-12 col-lg-5">
+          <div class="footer-copywrite-info"> 
+            <!-- Copywrite -->
+            <div class="copywrite_text wow fadeInUp" data-wow-delay="0.2s">
+              <div class="footer-logo"> <a href="#"><img src="/img/tcc-coin.png" alt="logo"> AVNRICH.</a> </div>
+              <p>AVN is a cryptocurrency by which you can make direct transactions. All the transactions as well as the mined coins are recorded on extremely secure AVN Blockchain. It maintains personal privacy and uses latest technology to make it extremely fast and efficient means of transacting while maintaining highest safety standards.</p>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
-                <h2>Follow Us On</h2>
-                <ul class="social-icons">
-                    <li>
-                        <a ng-show="settings.rss" href="{{settings.rss}}" data-original-title="rss" class="rss"></a>
-                    </li>
-                    <li>
-                        <a ng-show="settings.reddit" href="{{settings.reddit}}" data-original-title="reddit" class="reddit"></a>
-                    </li>
-                    <li>
-                        <a ng-show="settings.twitter" href="{{settings.twitter}}" data-original-title="twitter" class="twitter"></a>
-                    </li>
-                    <li>
-                        <a ng-show="settings.github" href="{{settings.github}}" data-original-title="github" class="github"></a>
-                    </li>
-                    <li>
-                        <a ng-show="settings.linkedin" href="{{settings.linkedin}}" data-original-title="linkedin" class="linkedin"></a>
-                    </li>
-                </ul>
-            </div>
-            <div ng-show="settings.symbol == 'ETC'" class="col-md-6 col-sm-12 col-xs-12 footer-block">
-                <h2>Help, it's Broken!</h2>
-                <address class="margin-bottom-40"> 
-                    <br>Open an Issue: <a href="">github</a>
-                    <br> <a href="">Email bug reports</a>
-                    <br> <a href="">Twit</a>
-                </address>
-            </div>
+            <!-- Social Icon -->
+            <div class="footer-social-info wow fadeInUp" data-wow-delay="0.4s">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+              <a href="" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a> 
+              <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+             
+			  <a href="" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+              <a href="" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+           </div>
+          </div>
         </div>
+        <div class="col-12 col-lg-7"> 
+          <div class="contact_info_area d-sm-flex justify-content-between">
+            <div class="contact_info text-center wow fadeInUp" data-wow-delay="0.2s">
+              <h5>Navigate</h5>
+              <a href=""><p>Roadmap</p></a> 
+              <a href=""><p>Team</p></a> 
+              <a href=""><p>Exchanges</p></a> 
+              <a href=""><p>API</p></a> 
+              <a href=""><p>Explorer</p></a> 
+            </div>
+           
+            <div class="contact_info text-center wow fadeInUp" data-wow-delay="0.3s">
+              <h5>Privacy & TOS</h5>
+              <a href="#"><p>Terms &amp; Condition</p></a> 
+              <a href="#"><p>Privacy Policy</p></a>
+              <a href="#"><p>Term Of Use</p></a> 
+			  <a href="c" target="_blank"><p>Certificate of Incorporation</p></a> 
+            </div>
+            <div class="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
+              <h5>Contact US</h5>
+              <p>xxx xxx Street,<br/>
+				 xxxx xxxx,<br/>
+				 xxxx xxxx xxxx xxxx </p>
+              <p>support@avnrich.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<!-- END PRE-FOOTER -->
-<!-- BEGIN POST-FOOTER -->
-<div class="page-footer">
-    <div class="container" ng-bind-html="settings.copyright"></div>
-</div>
-<div class="scroll-to-top">
-    <i class="icon-arrow-up"></i>
-</div>
-<!-- END POST-FOOTER -->
+  </div>
+  <div class="footer-coypright">
+    <p class="text-center">© Copyright - 2021. All rights reserved by AVNRICH.COM</p>
+  </div>
+</footer>
