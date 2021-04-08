@@ -40,20 +40,26 @@
     </div>
   </div>
 </header>
-<div class="clearfix"></div>
-<div id="search-top">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="block-explorer">AVN Blockchain Explorer</h1>
-		  <form action="https://ascscan.io/search" method="get" autocomplete="off" spellcheck="false"> 
-			<div class="search">
-			  <input type="text" class="searchTerm" name="keyword" placeholder="Search by Address / Txn Hash / Block Hash">
-			  <button type="submit" class="searchButton">Search</button>
-			</div>
-		  </form> 
-        <h2 class="block-explorer-small">You can search Address, Transaction, Block</h2>
-      </div>
+        <!-- BEGIN TOP NAVIGATION MENU -->
+        <div class="top-menu">
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <form name="form.searchForm" class="search-form">
+                        <div class="input-group">
+                            <input type="text" name="explorerSearch" class="form-control" placeholder="Search by Address / Txhash / BlockNum / BlockHash" ng-model="form.searchInput" ng-keyup="$event.keyCode == 13 ? searchQuery(form.searchInput) : null">
+                            <span class="input-group-btn">
+                                <a class="btn" ng-click="searchQuery(form.searchInput)">
+                                    <i class="icon-magnifier"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </form>
+                </li>
+
+
+            </ul>
+        </div>
+        <!-- END TOP NAVIGATION MENU -->
     </div>
   </div>
 </div>
