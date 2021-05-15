@@ -1,10 +1,10 @@
-{
+d{
     "nodeAddr":     "143.198.113.17",
     "gethPort":     8545,
-    "startBlock":   264399,
+    "startBlock":   0,
     "endBlock":     "latest",
     "quiet":        true,
-    "syncAll":      false,
+    "syncAll":      true,
     "patch":        true,
     "patchBlocks":  100,
     "settings": {
