@@ -1138,9 +1138,9 @@ body {
 	font-family: 'Roboto', sans-serif;*/
 	font-family: 'Titillium Web', sans-serif;
     background: #228C22;
-    background: -webkit-linear-gradient(to right, #228C22, #341f97);
-    background: -webkit-linear-gradient(left, #228C22, #341f97);
-    background: linear-gradient(to right, #228C22, #341f97);
+    background: -webkit-linear-gradient(to right, #228C22, #228C22);
+    background: -webkit-linear-gradient(left, #228C22, #228C22);
+    background: linear-gradient(to right, #228C22, #228C22);
 	scrollbar-width: thin;
 	font-size:15px; 
 }
@@ -1242,9 +1242,9 @@ ol {
     top: 0;
     left: 0;
     background: #228C22;
-    background: -webkit-linear-gradient(to right, #228C22, #341f97);
-    background: -webkit-linear-gradient(left, #228C22, #341f97);
-    background: linear-gradient(to right, #228C22, #341f97);
+    background: -webkit-linear-gradient(to right, #228C22, #228C22);
+    background: -webkit-linear-gradient(left, #228C22, #228C22);
+    background: linear-gradient(to right, #228C22, #228C22);
 }
 
 .preload-content {
@@ -5109,7 +5109,7 @@ textarea:required {
 .current-progress .progress-bar{
     border-radius: 7px;
     height: 100%;
-    background: linear-gradient(to right, #228C22, #341f97)
+    background: linear-gradient(to right, #228C22, #228C22)
 }
 .ico-progress span {
     color: #370779;
@@ -5458,7 +5458,7 @@ body.light-version {
     border-bottom-color: rgba(255, 255, 255, 0.2) !important 
 }
 .light-version .demo-video{
-    background: linear-gradient(to right, #228C22, #341f97);
+    background: linear-gradient(to right, #228C22, #228C22);
     overflow: hidden;
     border-top: 1px solid #eee
 }
@@ -5639,9 +5639,9 @@ footer p{ color:#fff !important;}
 .footer-coypright p{ margin-bottom:0px; line-height:36px;}
 header.inner{ 
     /*background: #228C22;
-    background: -webkit-linear-gradient(to right, #228C22, #341f97);
-    background: -webkit-linear-gradient(left, #228C22, #341f97);
-    background: linear-gradient(to right, #228C22, #341f97);
+    background: -webkit-linear-gradient(to right, #228C22, #228C22);
+    background: -webkit-linear-gradient(left, #228C22, #228C22);
+    background: linear-gradient(to right, #228C22, #228C22);
     scrollbar-width: thin;*/
 	background: #fff;
 	color: #333;
